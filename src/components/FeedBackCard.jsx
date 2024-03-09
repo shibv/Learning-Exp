@@ -7,7 +7,7 @@ function FeedBackCard() {
   return (
     <div className="w-full flex justify-center items-end mb-20 ">
       <div className="flex w-[80%] bg-gray-200 flex-col sm:flex-row rounded-xl shadow-md   mb-10">
-         <div className=" w-full sm:w-[40%] rounded-xl ">
+         <div className=" w-full sm:w-[50%] rounded-xl ">
              <img src={avt} className="object-fit rounded-xl " alt="" />
          </div>
          <div className=" w-full sm:w-[60%] flex flex-col gap-2 p-6 sm:p-10 sm:pr-32">
