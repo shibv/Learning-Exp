@@ -19,7 +19,7 @@ function Main() {
       className="w-full text-white flex flex-col gap-6 h-screen rounded-br-3xl mb-6 "
     >
       <Navbar />
-      <div className="container sm:pb-0">
+      
         <div className="flex flex-col sm:flex-row justify-around  gap-10 px-2 sm:px-10 py-4 ">
           {/* text content section */}
           <div className="flex flex-col gap-6 w-full  sm:w-[50%] p-6  ">
@@ -49,7 +49,7 @@ function Main() {
           </div>
         </div>
       </div>
-    </div>
+  
   );
 }
 

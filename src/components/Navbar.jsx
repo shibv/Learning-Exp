@@ -28,7 +28,7 @@ const navItems =  [
 function Navbar() {
   return (
     
-         <div className='container py-3 sm:py-0'>
+       
              <div className="flex justify-between items-center px-6 sm:px-20 py-4">
               <div>
                 <a className='flex items-center gap-2 text-xl sm:text-xl font-semibold' href="#">
@@ -49,7 +49,7 @@ function Navbar() {
                 </button>
               </div>
              </div>
-         </div>
+        
     
   )
 }

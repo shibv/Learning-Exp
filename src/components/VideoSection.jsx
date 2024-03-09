@@ -2,8 +2,8 @@ import React from 'react'
 
 function VideoSection() {
   return (
-    <div id="goals" className="container pb-8 sm:pb-0 mb-8">
-        <div className="flex flex-col sm:flex-row justify-around  gap-10 px-2  sm:px-10 py-4 ">
+    
+        <div  className="flex  flex-col sm:flex-row justify-around items-center  gap-10 px-2  sm:px-10 py-4 ">
             {/* Image section */}
           <div className="flex w-full sm:w-[50%]  ">
             <div className="w-full aspect-video h-full border-8 border-green-200 rounded-3xl  flex">
@@ -34,7 +34,7 @@ function VideoSection() {
           </div>
           
         </div>
-      </div>
+      
   )
 }
 
