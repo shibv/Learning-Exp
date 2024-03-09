@@ -4,19 +4,23 @@ import logo from '../assets/logo.svg'
 const navItems =  [
     {
         id: 1,
-        item  :"Home"
+        item  :"Home",
+        href :"#home"
     },
     {
         id: 2,
-        item  :"Services us"
+        item  :"Services Us",
+        href :"#services"
     },
     {
         id: 3,
-        item  :"Why Us"
+        item  :"Why Us",
+        href :"#whyus"
     },
     {
         id: 4,
-        item  :"Our Goals"
+        item  :"Our Goals",
+        href :"#goals"
     },
 
 ]
@@ -36,7 +40,7 @@ function Navbar() {
 
                 <ul className='hidden sm:flex gap-6 '>
                  {
-                  navItems.map(item => <li key={item.id} className=' text-gray-500 no-underline hover:underline hover:text-yellow-300 duration-300 font-medium cursor-pointer'>{item.item}</li> )
+                  navItems.map(item => <li key={item.id}  className=' text-gray-500 no-underline hover:underline hover:text-yellow-300 duration-300 font-medium cursor-pointer'> <a href={item.href}>{item.item}</a> </li> )
                  }
                 </ul>
                 <button className='bg-yellow-300  text-black px-8 py-2 rounded-full hover:scale-105 duration-300 flex font-medium text-sm items-center gap-2'>

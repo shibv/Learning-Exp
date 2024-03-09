@@ -22,7 +22,7 @@ function ContactUs() {
           />
           <button
             type="submit"
-            class="text-white absolute end-2.5 bottom-3 sm:bottom-4 bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 "
+            class="text-white absolute end-2.5 bottom-2 sm:bottom-4 bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 "
           >
             Search
           </button>

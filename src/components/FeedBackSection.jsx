@@ -3,7 +3,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 function FeedBackSection() {
   return (
-    <div className='flex flex-col sm:flex-row justify-between gap-10 px-2  sm:px-16 mb-10'>
+    <div id="whyus" className='flex flex-col sm:flex-row justify-between gap-10 px-2  sm:px-16 mb-10'>
          <div className='flex flex-col  gap-4 w-full sm:w-[80%]'>
          <h1 className="text-3xl flex font-semibold ">
               Our Student Feedback 
